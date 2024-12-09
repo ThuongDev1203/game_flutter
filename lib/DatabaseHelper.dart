@@ -28,7 +28,7 @@ class DatabaseHelper {
           CREATE TABLE users(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT UNIQUE,
-            level INTEGER DEFAULT 1
+            level INTEGER DEFAULT 0
           )
           ''',
         );
